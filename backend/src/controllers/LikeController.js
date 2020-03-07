@@ -14,7 +14,7 @@ module.exports = {
 		}
 
 		if (targetDev.likes.includes(loggedDev._id)) {
-			console.log('DEU MATCH');
+			console.log('DEU MATCH'); 
 		}
 
 		loggedDev.likes.push(targetDev._id);
