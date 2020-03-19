@@ -200,16 +200,10 @@ const styles = StyleSheet.create({
 		backgroundColor: 'rgba(0,0,0,0.8)',
 		justifyContent: 'center',
 		alignItems: 'center',
-		position: 'absolute',
-		top: 0,
-		left: 0,
-		right: 0,
-		bottom: 0 
-
 	},
 
 	matchImage: {
-		height: 80,
+		height: 60,
 		resizeMode: 'contain'
 	},
 
@@ -244,4 +238,4 @@ const styles = StyleSheet.create({
 		marginTop: 30,
 		fontWeight: 'bold'
 	}
-})
+});
